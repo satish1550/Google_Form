@@ -29,65 +29,51 @@ function validateInputs() {
     if (firstName.value.length <= 0) {
         alert("First name is requrd..");
         firstName.focus();
-        return false;
     };
     if (lastName.value.length <= 0) {
         alert("Last name is requrd..");
         lastName.focus();
-        return false;
     };
     if (genderEl.value == "- -Select Gender- -") {
         alert("Gender is requrd..");
         genderEl.focus();
-        return false;
     };
     if (emailEl.value.length <= 0) {
         alert("Email is requrd..");
         emailEl.focus();
-        return false;
     };
     if (numberEl.value.length <= 0) {
         alert("Mobile no. is requrd..");
         numberEl.focus();
-        return false;
     };
     if (ageEl.value.length <= 0) {
         alert("Age is requrd..");
         ageEl.focus();
-        return false;
     };
     if (dateEl.value.length <= 0) {
         alert("Date of birth is requrd..");
         dateEl.focus();
-        return false;
     };
     if (ardheerEl.value.length <= 0) {
         alert("Ardheer no. is requrd..");
         ardheerEl.focus();
-        return false;
     };
     if (addressEl.value.length <= 0) {
         alert("address is requrd..");
         addressEl.focus();
-        return false;
     };
     if (collegeName.value.length <= 0) {
         alert("university name is requrd..");
         collegeName.focus();
-        return false;
     };
     if (branchEl.value == "- -Select Branch- -") {
         alert("branch name is requrd..");
         branchEl.focus();
-        return false;
     };
     if (yearEl.value == "- -Select Year- -") {
         alert("Year of studying is requrd..");
         yearEl.focus();
-        return false;
     };
-
-    return false;
 };
 function validateFirstName(id) {
     const element = document.getElementById(id);
