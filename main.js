@@ -155,4 +155,3 @@ function validateCollege(id) {
     };
     element.style.border = "2px solid #5dfbdf";
 };
-// const submitBtm=document.querySelector("button");
