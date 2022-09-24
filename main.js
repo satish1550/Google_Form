@@ -80,7 +80,7 @@ function validateFirstName(id) {
     const re = /^[a-zA-z ]+$/;
     if (!re.test(element.value)) {
         alert("First name must be string only..")
-        element.style.border = "2px solid #ff0012";
+        element.style.border = "2px solid red";
         return false;
     };
     element.style.border = "2px solid #5dfbdf";
@@ -90,7 +90,7 @@ function validateLastName(id) {
     const re = /^[a-zA-z ]+$/;
     if (!re.test(element.value)) {
         alert("Last name must be string only..")
-        element.style.border = "2px solid #ff0012";
+        element.style.border = "2px solid red";
         return false;
     };
     element.style.border = "2px solid #5dfbdf";
@@ -100,7 +100,7 @@ function validateEmail(id) {
     const re = /^[a-zA-z0-9._]+@[a-zA-Z0-9._]+\.[a-zA-Z]{2,4}$/;
     if (!re.test(element.value)) {
         alert("Enter vaild email..")
-        element.style.border = "2px solid #ff0012";
+        element.style.border = "2px solid red";
         return false;
     };
     element.style.border = "2px solid #5dfbdf";
@@ -110,7 +110,7 @@ function validateNumber(id) {
     const re = /^[0-9]{10}$/;
     if (!re.test(element.value)) {
         alert("Enter 10 digit mobile no. ")
-        element.style.border = "2px solid #ff0012";
+        element.style.border = "2px solid red";
         return false;
     };
     element.style.border = "2px solid #5dfbdf";
@@ -120,7 +120,7 @@ function validateAge(id) {
     const re = /^[0-9]{1,2}$/;
     if (!re.test(element.value)) {
         alert("Enter your age(number) only..")
-        element.style.border = "2px solid #ff0012";
+        element.style.border = "2px solid red";
         return false;
     };
     element.style.border = "2px solid #5dfbdf";
@@ -130,7 +130,7 @@ function validateAredheer(id) {
     const re = /^[0-9]{12}$/;
     if (!re.test(element.value)) {
         alert("Enter your 12 digit Ardheer no..")
-        element.style.border = "2px solid #ff0012";
+        element.style.border = "2px solid red";
         return false;
     };
     element.style.border = "2px solid #5dfbdf";
@@ -140,7 +140,7 @@ function validateAddress(id) {
     const re = /^[a-zA-Z0-9 _/.,]+$/;
     if (!re.test(element.value)) {
         alert("Enter your Address");
-        element.style.border = "2px solid #ff0012";
+        element.style.border = "2px solid red";
         return false;
     };
     element.style.border = "2px solid #5dfbdf";
@@ -150,7 +150,7 @@ function validateCollege(id) {
     const re = /^[a-zA-Z .,]+$/;
     if (!re.test(element.value)) {
         alert("Enter your College Name correctly..");
-        element.style.border = "2px solid #ff0012";
+        element.style.border = "2px solid red";
         return false;
     };
     element.style.border = "2px solid #5dfbdf";
